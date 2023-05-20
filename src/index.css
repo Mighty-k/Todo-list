@@ -1,0 +1,72 @@
+.strike{
+  color: white;
+  text-decoration: line-through;
+  font-weight: 100;
+}
+body{
+  margin-top: 5%;
+  background-color: rgb(215, 226, 250);
+}
+header{
+  font-size: 50px;
+  color: rgb(151, 153, 221);
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display:inline-block;
+  text-align: center;
+  width: 10%;
+  /* margin-left:35% ; */
+  margin-bottom: 2%;
+  box-shadow: -2px 12px 12px -2px rgba(112, 93, 117, 0.42);
+  padding:0 2%;
+  border-radius: 10px;
+  background-color: rgba(230, 189, 189, 0.452);
+  cursor:default;
+}
+input{
+  box-shadow: -2px 12px 12px -2px rgba(89, 69, 94, 0.308);
+}
+#todo{  
+  background-color: rgb(193, 170, 235);
+  padding: 3%;
+  border-radius: 20px;
+  box-shadow: -2px 12px 12px -2px rgba(112, 93, 117, 0.42);
+}
+label{
+  font-size: 23px;
+  color: rgb(82, 91, 99);
+  font-style: oblique;
+  font-weight: 100;
+  width: 20%;
+}
+.btn{
+  margin: 1%;
+}
+.addtsk{
+  box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39);
+  background-color: rgb(99, 99, 206);
+  border: rgb(99, 99, 206);
+}
+.delete{
+  box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39);
+  background-color: rgb(68, 68, 146);
+  border: rgb(68, 68, 146);
+  color:white;
+}
+.delete:hover{
+  color:white;
+  background-color: rgb(103, 103, 136);
+  border: rgb(103, 103, 136);
+}
+.delete:active{
+  color:white;
+  background-color: rgb(103, 103, 136);
+  border: rgb(103, 103, 136);
+}
+.todo-list{
+  font-size: 30px;
+  font-weight: 600;
+  font-style: oblique;
+  color: rgb(92, 35, 28);
+  cursor: pointer;
+}
