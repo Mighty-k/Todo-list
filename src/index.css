@@ -17,20 +17,21 @@ header{
   width: 10%;
   /* margin-left:35% ; */
   margin-bottom: 2%;
-  box-shadow: -2px 12px 12px -2px rgba(112, 93, 117, 0.42);
+  box-shadow: -2px 8px 8px -2px rgba(112, 93, 117, 0.42);
   padding:0 2%;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgba(230, 189, 189, 0.452);
   cursor:default;
 }
 input{
-  box-shadow: -2px 12px 12px -2px rgba(89, 69, 94, 0.308);
+/*   box-shadow: -2px 8px 8px -2px rgba(89, 69, 94, 0.308); */
+  width 40%
 }
 #todo{  
   background-color: rgb(193, 170, 235);
   padding: 3%;
-  border-radius: 20px;
-  box-shadow: -2px 12px 12px -2px rgba(112, 93, 117, 0.42);
+  border-radius: 5px;
+  box-shadow: -2px 8px 8px -2px rgba(112, 93, 117, 0.42);
 }
 label{
   font-size: 23px;
@@ -43,12 +44,12 @@ label{
   margin: 1%;
 }
 .addtsk{
-  box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39);
+/*   box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39); */
   background-color: rgb(99, 99, 206);
   border: rgb(99, 99, 206);
 }
 .delete{
-  box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39);
+/*   box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39); */
   background-color: rgb(68, 68, 146);
   border: rgb(68, 68, 146);
   color:white;
