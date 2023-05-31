@@ -4,6 +4,7 @@ import TodoList from './TodoList';
 import TodoForm from './TodoForm';
 import { useState } from 'react';
 
+
 const App = () => {
     const [todoList, setTodoList] = useState(data)
     const handleToggle = (id) =>{
@@ -25,14 +26,24 @@ const App = () => {
     }
 
   return(
-   <div className='container app'>
-    <header className='container-sm text-center'>TO DO LIST</header>
-    <div className='container' id='todo'>
-    <TodoForm addTask={addTask} />
-    <TodoList todoList={todoList} handleToggle = {handleToggle} handleFilter={handleFilter}/>
+    <div className='container'>
+      <div className="row gx-1">
+      <div className="col">
+      <img src="src\img\todo.webp" alt="todo img" />
+      </div>
+      <div className='container app col'>
+     <header className='container-sm text-center'>TO DO LIST</header>
+      <div className='container' id='todo'>
+     <TodoForm addTask={addTask} />
+     <TodoList todoList={todoList} handleToggle = {handleToggle} handleFilter={handleFilter}/>
+      </div>
+   </div>
+   
+      </div>
+      
     </div>
     
-   </div>
+   
   )
 }
 

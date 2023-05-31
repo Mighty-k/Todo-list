@@ -15,12 +15,13 @@ const TodoForm = ({ addTask }) => {
 
   return (
     <div className="text-center">
-      <form onSubmit={handleSubmit} >
-        <label className="form-label">
-          Add new task
-        </label>
-        <input className="form-control" value={userInput} onChange={handleChange} type="text" placeholder="input task" />
+      <form className="row g-3 form" onSubmit={handleSubmit} >
+        <div className="col">
+        <input className="form-control inp" value={userInput} onChange={handleChange} type="text" placeholder="input task" />
+        </div>
+        <div className="col-auto">
         <button className="btn btn-primary addtsk" type="submit"> add task</button>
+        </div>
       </form>
     </div>
 
