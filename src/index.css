@@ -15,7 +15,6 @@ header{
   display:inline-block;
   text-align: center;
   width: 10%;
-  /* margin-left:35% ; */
   margin-bottom: 2%;
   box-shadow: -2px 5px 5px -2px rgba(112, 93, 117, 0.42);
   padding:0 2%;
@@ -27,7 +26,13 @@ form{
   margin-bottom: 5%;
   margin-left: 5%;
  
+  box-shadow: -2px 8px 8px -2px rgba(112, 93, 117, 0.42);
+  padding:0 2%;
+  border-radius: 5px;
+  background-color: rgba(230, 189, 189, 0.452);
+  cursor:default;
 }
+
 #todo{  
 
   /* background-color: rgb(170, 220, 235); */
@@ -37,6 +42,7 @@ form{
   padding: 3%;
   border-radius: 5px;
   box-shadow: -2px 12px 12px -2px rgba(112, 93, 117, 0.42);
+  box-shadow: -2px 8px 8px -2px rgba(112, 93, 117, 0.42);
 }
 /* label{
   font-size: 23px;
@@ -48,7 +54,6 @@ form{
 
 
 .addtsk{
-  /* box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39); */
   background-color: rgb(99, 99, 206);
   border: rgb(99, 99, 206);
 
@@ -59,7 +64,7 @@ form{
   padding: none;
 }
 .delete{
-  box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39);
+/*   box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39); */
   background-color: rgb(68, 68, 146);
   border: rgb(68, 68, 146);
   color:white;
