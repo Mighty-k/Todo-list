@@ -28,8 +28,7 @@ const App = () => {
   return(
     <div className='container'>
       <div className="row gx-1">
-      <div className="col">
-      <img src="src\img\todo.webp" alt="todo img" />
+      <div className="col todo-col">
       </div>
       <div className='container app col'>
      <header className='container-sm text-center'>TO DO LIST</header>
