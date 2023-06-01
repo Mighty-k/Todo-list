@@ -37,7 +37,7 @@ form{
 .todo-col{
   background-image: url(./img/todo.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .addtsk{
   background-color: rgb(99, 99, 206);
