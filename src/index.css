@@ -68,7 +68,7 @@ form{
   font-size: 40px;
   font-weight: 550;
   font-style:normal;
-  color: rgb(177, 83, 83);
+  color: white;
   cursor: pointer;
 }
 .item::before{
