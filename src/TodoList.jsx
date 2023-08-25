@@ -9,7 +9,7 @@ const TodoList = ({todoList, handleToggle, handleFilter}) => {
         )
       })}
       <div className="text-center">
-        <button className="btn btn-info delete" onClick={handleFilter}>Delete completed tasks</button>
+        <button className="btn delete" onClick={handleFilter}>Delete completed tasks</button>
       </div>
       
     </div>
