@@ -1,32 +1,47 @@
-.strike{
-  color: rgb(146, 238, 42);
+body {
+  margin-top: 5%;
+  background-color: #8b8c89;
+}
+
+.strike {
+  color: #a3cef1;
   text-decoration: line-through;
   font-weight: 100;
 }
-body{
-  margin-top: 5%;
-  background-color: rgb(215, 226, 250);
-}
-header{
+
+header {
   font-size: 40px;
   color: rgb(25, 25, 27);
-  font-weight: 300;
+  font-weight: 600;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  display:inline-block;
+  display: inline-block;
   text-align: center;
   width: 10%;
   margin-bottom: 2%;
-  box-shadow: -2px 5px 5px -2px rgba(112, 93, 117, 0.42);
-  padding:0 2%;
-  border-radius: 5px;
-  background-color: rgba(145, 226, 240, 0.452);
-  cursor:default;
+  padding: 0 2%;
+  border-radius: 3px;
+  /* background-color: #6096ba; */
+  box-shadow: 0px 2px 0px 0px #a3cef1;
+  cursor: default;
 }
-form{
+
+form {
   margin-bottom: 5%;
   margin-left: 5%;
 }
-#todo{  
+
+.inp {
+  width: 100%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.inp, .inp:focus {
+  border: none;
+  outline: none;
+}
+
+#todo {
   background-image: url(./img/note.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,44 +49,55 @@ form{
   border-radius: 5px;
   box-shadow: -2px 12px 12px -2px rgba(112, 93, 117, 0.42);
 }
-.todo-col{
+
+.todo-col {
   background-image: url(./img/todo.webp);
   background-repeat: no-repeat;
   background-size: contain;
-  height:700px;
+  height: 700px;
 }
-.addtsk{
+
+.addtsk {
   background-color: rgb(99, 99, 206);
   border: rgb(99, 99, 206);
 }
-.inp{
+
+.inp {
   margin: none;
   padding: none;
 }
-.delete{
-  box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39);
+
+.delete {
+  /* box-shadow: -2px 12px 12px -2px rgba(125, 53, 145, 0.39); */
   background-color: rgb(68, 68, 146);
   border: rgb(68, 68, 146);
-  color:white;
+  color: white;
 }
-.delete:hover{
-  color:white;
-  background-color: rgb(103, 103, 136);
+
+.delete:hover {
+  color: white;
+  background-color: #274c77;
   border: rgb(103, 103, 136);
 }
-.delete:active{
-  color:white;
-  background-color: rgb(103, 103, 136);
+
+.delete:active {
+  color: white;
+  /* background-color: rgb(103, 103, 136); */
   border: rgb(103, 103, 136);
 }
-.todo-list{
+
+.todo-list {
   font-size: 40px;
   font-weight: 550;
-  font-style:normal;
+  font-style: normal;
   color: white;
   cursor: pointer;
 }
-.item::before{
+
+/* .item {} */
+
+.item::before {
   content: "\2022";
+  /* color: black; */
   margin-right: 20px;
 }
